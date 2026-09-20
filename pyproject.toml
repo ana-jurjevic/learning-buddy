@@ -1,0 +1,17 @@
+[project]
+name = "learning-buddy"
+version = "0.1.0"
+description = "An application that helps you learn and retain knowledge."
+readme = "README.md"
+authors = [
+    { name = "Ana Jurjevic", email = "jurjevic.anaa@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+learning-buddy = "learning_buddy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
